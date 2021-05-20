@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "simple_debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "simple_release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "sm_gl900f_debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "d38d9123"
+        },
+        {
+            "name": "sm_j500h_debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "J5"
+        },
+        {
+            "name": "pixel_4_debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "pixel_flutter_emulator_debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "emulator-5556"
+        }
+    ],
+	"compounds": [
+		{
+			"name": "all_emulators",
+			"configurations": ["pixel_4_debug", "pixel_flutter_emulator_debug"],
+		}
+	]
+}
